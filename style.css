@@ -1,0 +1,93 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #001630;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #00051d;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ffffff;
+        }
+        
+        header h1 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            color: #ffffff;
+        }
+        
+        /* Seções */
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: rgb(108, 177, 255);
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        /* Experiência e Educação */
+        .item {
+            margin-bottom: 20px;
+        }
+        
+        .item h3 {
+            color: #3498db;
+        }
+        
+        .item .date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        /* Habilidades */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 10px;
+            margin: 0 10px 10px 0;
+            border-radius: 3px;
+        }
+        
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        /* Responsivo */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
